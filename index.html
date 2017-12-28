@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OOP_Market</title>
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div>
+        <div class="section section1">
+            <div class="item">
+                <img src="images/apple.jpeg"/>
+                <button class="price" onclick="apple.Buying()">Buy It</button>
+                <button class="weight" onclick="apple.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/banana.jpeg"/>
+                <button class="price" onclick="banana.Buying()">Buy It</button>
+                <button class="weight" onclick="banana.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/strawberry.jpeg"/>
+                <button class="price" onclick="strawberry.Buying()">Buy It</button>
+                <button class="weight" onclick="strawberry.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/orange.jpeg"/>
+                <button class="price" onclick="orange.Buying()">Buy It</button>
+                <button class="weight" onclick="orange.getWeight()">Weigh It</button>
+            </div>
+        </div>
+
+        <div class="section section2">
+            <div class="item">
+                <img src="images/carrot.jpeg"/>
+                <button class="price" onclick="carrot.Buying()">Buy It</button>
+                <button class="weight" onclick="carrot.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/tomatto.jpeg"/>
+                <button class="price" onclick="tomato.Buying()">Buy It</button>
+                <button class="weight" onclick="tomato.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/onion.jpeg"/>
+                <button class="price" onclick="onion.Buying()">Buy It</button>
+                <button class="weight" onclick="onion.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/potato.jpeg"/>
+                <button class="price" onclick="potato.Buying()">Buy It</button>
+                <button class="weight" onclick="potato.getWeight()">Weigh It</button>
+            </div>
+        </div>
+
+        <div class="section section3">
+            <div class="item">
+                <img src="images/rice.jpeg"/>
+                <button class="price" onclick="rice.Buying()">Buy It</button>
+                <button class="weight" onclick="rice.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/raw_groat.jpeg"/>
+                <button class="price" onclick="rawGroat.Buying()">Buy It</button>
+                <button class="weight" onclick="rawGroat.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/buckweats_groats.jpeg"/>
+                <button class="price" onclick="buckweatGroats.Buying()">Buy It</button>
+                <button class="weight" onclick="buckweatGroats.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/oatmeal.jpeg"/>
+                <button class="price" onclick="oatmeal.Buying()">Buy It</button>
+                <button class="weight" onclick="oatmeal.getWeight()">Weigh It</button>
+            </div>
+        </div>
+
+        <div class="section section4">
+            <div class="item">
+                <img src="images/spices.jpeg"/>
+                <button class="price" onclick="spices.Buying()">Buy It</button>
+                <button class="weight" onclick="spices.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/flour.jpeg"/>
+                <button class="price" onclick="flour.Buying()">Buy It</button>
+                <button class="weight" onclick="flour.getWeight()">Weigh It</button>
+            </div>
+            <div class="item">
+                <img src="images/oil.jpeg"/>
+                <button class="price" onclick="oil.Buying()">Buy It</button>
+                <button class="weight" onclick="oil.getWeight()">Weigh It</button>
+            </div>
+
+            <div class="item">
+                <img src="images/butter.jpeg"/>
+                <button class="price" onclick="butter.Buying()">Buy It</button>
+                <button class="weight" onclick="butter.getWeight()">Weigh It</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="purchase">
+        <div id="bill">
+            <table hidden>
+            <tr id="receipt">
+            </tr>
+            </table>
+            <div hidden id="total">
+                <p id="summary"></p>
+            </div>
+        </div>
+
+        <div class="cashier">
+            <div>Weight</div>
+            <div id="weightPrice">
+                    </div>
+            </div>
+      </div>
+    </div>
+</body>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/choose.js"></script>
+<script src="scripts/Buying.js"></script>
+</html>
