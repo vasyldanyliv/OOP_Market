@@ -1,3 +1,3 @@
 # OOP_Market
-Result of work: 
+Result of work:
 Task-Market https://vasyldanyliv.github.io/OOP_Market ------</br>
